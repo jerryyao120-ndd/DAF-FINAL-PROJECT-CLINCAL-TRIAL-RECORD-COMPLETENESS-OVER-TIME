@@ -9,7 +9,7 @@
 ### Initial Data Analysis Conclusion:
 - Most records have only less than 50% completeness.Some datafields has less than 50% completemness.
 - The completeness of data changed following a trend of going up first and going down with a turning point at 2007
-- The upgoing part and the downgoing part both fit well into a linear regression model
+- The upgoing part and the downgoing part both fit well into a linear regression model (r^2>0.8）
 ### Data Result Reasoning
 #### Question:
 What caused this turing point at year 2007, which seemingly is the opposite of what should happen after 2007 data disclosure bill?
@@ -33,5 +33,11 @@ What caused this turing point at year 2007, which seemingly is the opposite of w
 
 ## Data Source
 (https://www.clinicaltrials.gov)
+## Data Remark
+#### Original data are in .xml format(330686 records)(can be found https://clinicaltrials.gov/api/gui/ref/download_all)
+#### Data pharsed in to .csv with a [python script](https://github.com/jerryyao120-ndd/DAF-FINAL-PROJECT-CLINCAL-TRIAL-RECORD-COMPLETENESS-OVER-TIME/blob/master/diropen.py)
+#### Due to very big file size .csv file used is provided in .rar format
 
-### Original data are in .xml format 
+## [Jupyter Notebook and Visulization](https://nbviewer.jupyter.org/github/jerryyao120-ndd/DAF-FINAL-PROJECT-CLINCAL-TRIAL-RECORD-COMPLETENESS-OVER-TIME/blob/master/daf-final-project.ipynb)
+
+## Data process step-flow are remarked in Jupyter Notebook
